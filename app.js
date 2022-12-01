@@ -40,7 +40,7 @@ const UICtrl = (function (){
         populateItemList: function (items){
             let html = ''
             items.forEach(function (item){
-                html += `<li id="item-${item.id}"><strong>${item.name}: </strong><em>${item.calories}</em>Calories</li>`
+                html += `<li id="item-${item.id}"><strong>${item.name}: </strong><em>${item.calories}</em> Calories</li>`
             })
             document.querySelector('ul').innerHTML = html
         },
